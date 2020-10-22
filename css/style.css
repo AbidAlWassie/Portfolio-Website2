@@ -29,10 +29,6 @@
     transition: all ease-in-out 400ms !important;
   }
 
-  .nav-mobile {
-    /*display: flex;*/
-  }
-
   .alert1 {
     display: block;
   }
@@ -71,7 +67,6 @@
 
   .menu-btn {
     display: block;
-    /* position: fixed; */
     margin: auto 0 auto auto;
   }
 
@@ -100,6 +95,134 @@
     background: #c7c7c7 !important;
   }
 }
+@media (min-width: 576px) {
+  .container {
+    max-width: 500px;
+  }
+}
+.alert {
+  padding: 0;
+  margin: 0;
+}
+
+/* @media (min-width: 714px) {
+  .container {
+    max-width: 560px; }
+} */
+@media (min-width: 798px) {
+  /* .container {
+    max-width: 798px; }  */
+}
+@media (min-width: 850px) {
+  .container {
+    max-width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 1000px;
+  }
+
+  .container-content {
+    max-width: 980px;
+  }
+}
+@media (max-width: 1030px) {
+  .container {
+    max-width: 800px;
+  }
+}
 /*# sourceMappingURL=media-queries.css.map */
+html {
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  /* position: relative; */
+  margin: 0;
+  /* overflow-x: hidden; */
+  font-size: 16px !important;
+  font-family: "Open Sans", "Poppins" !important;
+  height: 100%;
+  background: #fafafa;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul, ol, dl {
+  margin-bottom: 1rem;
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  float: left;
+  /* padding-right: 15px; */
+}
+
+.hyperlink {
+  /* display: block; */
+  cursor: pointer;
+  text-decoration: none;
+  color: #0d37ab;
+  border-bottom: 0.2rem solid #0d37ab83;
+  padding-right: 0;
+}
+
+.hyperlink:hover {
+  border-bottom: 0.2rem solid #0d37ab;
+}
+
+.block {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* margin: 0 auto 0 auto; */
+}
+
+.bigheading {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 100%;
+  z-index: -10;
+}
+
+.overlay-half-x:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: 80%;
+  background: #77b7ff;
+  opacity: 1;
+  content: "";
+  z-index: -1;
+}
+
+.subheading {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #0075f6;
+}
+
+h1 span {
+  font-weight: 800;
+  color: #0075f6;
+}
 
 /*# sourceMappingURL=style.css.map */
