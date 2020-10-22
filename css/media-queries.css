@@ -1,0 +1,136 @@
+@media (max-width: 1250px) {
+  .navbar-nav {
+    margin: 10px 0 0 220px !important;
+  }
+}
+@media (max-width: 1030px) {
+  .container-content {
+    margin: 0 0 0 0;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .f-section {
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  ul {
+    margin-top: 40px;
+    margin-right: 60px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar {
+    transition: all ease-in-out 400ms !important;
+  }
+
+  .alert1 {
+    display: block;
+  }
+
+  .row-padding {
+    padding-top: 25em;
+    padding-bottom: 10em;
+  }
+
+  .navbar-nav > li > a {
+    margin: 20px auto;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 25px;
+    width: 100%;
+    position: relative;
+    top: -600px;
+    background: transparent !important;
+    margin: 0 !important;
+    transition: all 300ms ease-in-out;
+  }
+
+  .nav-link {
+    color: #292929;
+    line-height: 40px;
+  }
+
+  .portfolio-section1 {
+    width: 0;
+  }
+
+  .menu-btn {
+    display: block;
+    margin: auto 0 auto auto;
+  }
+
+  .f-section {
+    grid-template-columns: 1fr;
+  }
+
+  .scrolled {
+    background: #0c172e !important;
+  }
+
+  .brandLettersDark {
+    color: #fff;
+  }
+
+  .navbar-nav-dark {
+    background: #0c172e !important;
+    align-items: center;
+  }
+
+  .nav-link-dark {
+    color: #cccccc;
+  }
+
+  .btn-line-dark {
+    background: #c7c7c7 !important;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 500px;
+  }
+}
+.alert {
+  padding: 0;
+  margin: 0;
+}
+
+/* @media (min-width: 714px) {
+  .container {
+    max-width: 560px; }
+} */
+@media (min-width: 798px) {
+  /* .container {
+    max-width: 798px; }  */
+}
+@media (min-width: 850px) {
+  .container {
+    max-width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 1000px;
+  }
+
+  .container-content {
+    max-width: 980px;
+  }
+}
+@media (max-width: 1030px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+/*# sourceMappingURL=media-queries.css.map */
