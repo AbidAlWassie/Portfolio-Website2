@@ -19,6 +19,10 @@ body {
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 !important;
+}
+
 
 ul, ol, dl {
   margin-bottom: 1rem;
@@ -92,3 +96,101 @@ h1 span {
   font-weight: 800;
   color: #0075f6;
 }
+
+img {
+
+}
+
+.absolute {
+  position: absolute;
+}
+
+.row {
+  margin-top: 6em;
+  margin-bottom: 40px;
+}
+
+.row-padding {
+  padding-top: 5em;
+  padding-bottom: 3em;
+}
+
+.full-height {
+  height: 900px;
+  /* height: 100%; */
+  /* background: red; */
+}
+
+.full-width {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fixed {
+  position: fixed;
+}
+
+::-webkit-scrollbar {
+  z-index: 200;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d1d1d1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a1a1a1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8b8b8b;
+}
+
+.navbar {
+  position: relative;
+  height: 74px;
+  background: transparent !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  padding: 0.5rem 1rem;
+}
+
+.nav-item .nav-link {
+  font-size: 16px;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000000;
+  font-weight: 400;
+  opacity: 1 !important;
+}
+
+.ml-auto {
+  margin-left: 800px !important;
+}
+
+.navbar-brand {
+  color: #000000;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+}
+
+.navbar-nav {
+  //margin-top: 0 !important;
+  margin: 0 auto 0 30vw !important;
+}
+
+.slide-container {
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+
+
