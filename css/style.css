@@ -200,7 +200,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   overflow: hidden;
   height: 100%;
-  z-index: -10;
 }
 
 .overlay-half-x:after {
@@ -317,10 +316,12 @@ h1 span {
 .slide-container {
   width: 100%;
   position: relative;
-  height: 650px;
+  height: 700px;
 }
 
-/*.img {*/
-/*  */
-/*}*/
+.glide__slide {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 /*# sourceMappingURL=style.css.map */
