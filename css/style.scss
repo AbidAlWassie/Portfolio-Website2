@@ -1,4 +1,5 @@
 @import "media-queries";
+//@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 
 html {
   /* scroll-behavior: smooth; */
@@ -163,8 +164,8 @@ img {
 
 .nav-item .nav-link {
   font-size: 16px;
-  padding-top: .7rem;
-  padding-bottom: .7rem;
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
   padding-left: 10px;
   padding-right: 10px;
   color: #000000;
@@ -178,22 +179,66 @@ img {
 
 .navbar-brand {
   color: #000000;
-  padding-top: .7rem;
-  padding-bottom: .7rem;
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
 }
 
 .navbar-nav {
   //margin-top: 0 !important;
-  margin: 0 auto 0 30vw !important;
+  margin: 0 auto 0 28vw !important;
+}
+
+.text-alignment {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  left: 80px;
 }
 
 .slide-container {
   width: 100%;
   position: relative;
-  height: 700px;
+  height: 675px;
 }
 
 .glide__slide {
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+.img {
+  //background-size: cover;
+  //background-repeat: no-repeat;
+  //background-position: center center;
+  z-index: -10 !important;
+}
+
+.img-intro {
+  //position: relative;
+  //height: 100%;
+  width: 900px !important;
+  z-index: -10 !important;
+  margin: 50px 0 0 290px;
+}
+
+.mouse {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  z-index: 2;
+}
+
+.mouse-icon {
+  width: 70px;
+  height: 70px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  margin: 0 auto;
+  bottom: 0;
+  background: #e7eefc;
+  z-index: 1;
+
 }

@@ -120,7 +120,7 @@
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 1000px;
+    max-width: 1280px;
   }
 
   .container-content {
@@ -290,8 +290,8 @@ h1 span {
 
 .nav-item .nav-link {
   font-size: 16px;
-  padding-top: 0.7rem;
-  padding-bottom: 0.7rem;
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
   padding-left: 10px;
   padding-right: 10px;
   color: #000000;
@@ -305,23 +305,61 @@ h1 span {
 
 .navbar-brand {
   color: #000000;
-  padding-top: 0.7rem;
-  padding-bottom: 0.7rem;
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
 }
 
 .navbar-nav {
-  margin: 0 auto 0 30vw !important;
+  margin: 0 auto 0 28vw !important;
+}
+
+.text-alignment {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  left: 80px;
 }
 
 .slide-container {
   width: 100%;
   position: relative;
-  height: 700px;
+  height: 675px;
 }
 
 .glide__slide {
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+.img {
+  z-index: -10 !important;
+}
+
+.img-intro {
+  width: 900px !important;
+  z-index: -10 !important;
+  margin: 50px 0 0 290px;
+}
+
+.mouse {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  z-index: 2;
+}
+
+.mouse-icon {
+  width: 70px;
+  height: 70px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  margin: 0 auto;
+  bottom: 0;
+  background: #e7eefc;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
