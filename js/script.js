@@ -11,7 +11,6 @@ window.onload = function() {
       // }
     }
   }
-  // import Glide, { Autoplay } from "glide.modular.esm";
   
   new Glide(".glide", config).mount();
   
