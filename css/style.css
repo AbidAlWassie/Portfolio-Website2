@@ -348,7 +348,7 @@ h1 span {
   position: relative;
 }
 
-.subheading {
+.section .subheading {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -359,6 +359,23 @@ h1 span {
   justify-content: center;
   text-align: center;
   margin-bottom: 1.5rem !important;
+}
+
+.about-box {
+  width: 40%;
+  height: 30%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  z-index: -1;
+  background: #0075f6;
+  margin-top: 40px;
+  margin-left: -60px;
+  opacity: 1;
 }
 
 .flex {
