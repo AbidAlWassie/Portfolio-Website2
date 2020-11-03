@@ -21,6 +21,10 @@ p {
   color: #999999;
 }
 
+p.white {
+  color: white !important;
+}
+
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -266,6 +270,22 @@ img {
 
 .section-header {
   margin-bottom: 2rem !important;
+}
+
+.box {
+  position: absolute;
+  top: 470px;
+  left: 400px;
+  width: 30%;
+  height: 15%;
+  display: block;
+  z-index: -100 !important;
+  padding: 30px 25px 30px 60px;
+  font-size: 1.6em;
+  content: "";
+  background: #0075f6;
+  margin-top: 40px;
+  opacity: 1;
 }
 
 .about-box {
