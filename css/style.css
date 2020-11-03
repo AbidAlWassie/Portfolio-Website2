@@ -322,6 +322,15 @@ h1 span {
   margin: 50px 0 0 290px;
 }
 
+.img-about {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-left: 40px;
+  z-index: 1;
+}
+
 .mouse {
   display: flex;
   justify-content: center;
@@ -362,20 +371,21 @@ h1 span {
 }
 
 .about-box {
-  width: 40%;
-  height: 30%;
-  display: block;
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  width: 20%;
+  height: 20%;
+  display: block;
+  z-index: -10 !important;
+  top: 140px;
+  left: -20px;
   content: "";
-  z-index: -1;
   background: #0075f6;
   margin-top: 40px;
-  margin-left: -60px;
   opacity: 1;
+}
+
+.half-2 {
+  margin-left: 60px;
 }
 
 .flex {
@@ -388,6 +398,11 @@ h1 span {
 
 .flex-row {
   flex-direction: row;
+}
+
+.section-d2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .demo a {
