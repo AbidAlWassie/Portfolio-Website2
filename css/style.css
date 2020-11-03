@@ -569,4 +569,13 @@ h1 span {
   font-weight: 400;
 }
 
+.scroll-down-arrow span {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid transparent;
+  border-right-color: #000;
+  border-left-color: #000;
+}
+
 /*# sourceMappingURL=style.css.map */
