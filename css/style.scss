@@ -416,3 +416,18 @@ img {
   -o-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
+
+.progress-wrap h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.progress-bar span {
+  position: relative;
+  top: -38px;
+  right: -100px;
+  color: #0b0b0b;
+  font-size: 20px;
+  font-weight: 400;
+}
