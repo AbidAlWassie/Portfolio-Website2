@@ -1,4 +1,5 @@
 @import "media-queries";
+@import "custom";
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 //@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 
@@ -16,13 +17,17 @@ body {
   background: rgb(250, 250, 250);
 }
 
+p {
+  color: #999999;
+}
+
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 !important;
+  //margin: 0 !important;
 }
 
 
@@ -253,17 +258,14 @@ img {
 }
 
 
-.section .subheading {
+.center {
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
 .section-header {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .about-box {
@@ -284,7 +286,7 @@ img {
 }
 
 .half-2 {
-  margin-left: 60px;
+  margin-left: 100px;
 }
 
 .flex {
