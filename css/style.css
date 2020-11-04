@@ -570,10 +570,11 @@ h1 span {
 }
 
 .scroll-down-arrow span {
-  display: block;
+  display: inline-block;
   width: 1rem;
   height: 1rem;
   border: 2px solid transparent;
+  transform: rotate(45deg);
   border-right-color: #000;
   border-left-color: #000;
 }
