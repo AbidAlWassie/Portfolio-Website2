@@ -265,6 +265,10 @@ img {
   position: relative;
 }
 
+.section-padding-top {
+  padding-top: 8em;
+}
+
 
 .center {
   display: flex;
@@ -446,7 +450,7 @@ img {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 50px;
+  padding: 50px 50px 0 50px;
   //background-color: rgb(243, 243, 243);
 }
 
@@ -529,4 +533,82 @@ img {
 .contact-items {
   display: grid;
   grid-template-columns: 1fr 1.18fr;
+}
+
+.footer-section {
+  font-size: 16px;
+  background: #000000;
+  padding: 7em 0;
+  z-index: 0;
+  color: #fff;
+}
+
+.footer-items {
+  display: flex;
+  /* width: 100%; */
+}
+
+.footer-item {
+  margin-right: 10px;
+  width: 100%;
+}
+
+.center-align {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: #ffffff8e;
+  font-weight: 500;
+}
+
+.sl-mid {
+  border-radius: 50%;
+  /*background: rgba(255, 255, 255, 0.05);*/
+  width: 50px;
+  height: 50px;
+  margin: 50px 20px 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons-mid {
+  width: 35px;
+  height: 35px;
+}
+
+.icon-mid {
+  position: relative;
+  top: 0;
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+.icon-small {
+  position: relative;
+  top: 3px;
+  margin-right: 3px;
+  width: 20px;
+  height: 20px;
+}
+
+.list-services {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-list {
+  line-height: 40px;
+}
+
+.disabled {
+  user-select: none;
+}
+
+.about-contact-list {
+  margin-bottom: 20px;
 }
