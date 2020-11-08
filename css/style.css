@@ -656,4 +656,14 @@ h1 span {
   margin: 0 !important;
 }
 
+.about-pic-holder img {
+  width: 100%;
+  background-position: top center;
+}
+
+.contact-items {
+  display: grid;
+  grid-template-columns: 1fr 1.18fr;
+}
+
 /*# sourceMappingURL=style.css.map */
