@@ -584,7 +584,6 @@ h1 span {
   flex-direction: column;
   width: 100%;
   padding: 50px;
-  background-color: #f3f3f3;
 }
 
 .contact input {
@@ -594,9 +593,10 @@ h1 span {
   border: 1px solid #c7c7c7;
 }
 
-textarea {
+.contact textarea {
   font-size: 16px;
   border: 1px solid #c7c7c7;
+  margin: 0 0 20px 0;
 }
 
 .form-control {
