@@ -579,4 +579,35 @@ h1 span {
   border-left-color: #000;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px;
+  background-color: #f3f3f3;
+}
+
+.contact input {
+  height: 53px;
+  margin: 0 0 20px 0;
+  font-size: 16px;
+  border: 1px solid #c7c7c7;
+}
+
+textarea {
+  font-size: 16px;
+  border: 1px solid #c7c7c7;
+}
+
+.form-control {
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.btn-form {
+  border-radius: 50px !important;
+  height: 50px;
+  width: 200px;
+}
+
 /*# sourceMappingURL=style.css.map */
