@@ -509,13 +509,19 @@ img {
 .alert-info {
   /*display: none;*/
   color: #fff;
-  background-color: #0099ff;
+  background-color: #0099ff !important;
   border: none;
   border-radius: unset;
 }
+.btn-custom-close {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+  color: black;
+}
 
 .alert1 {
-  display: none;
+  //display: none;
 }
 
 .alert-message {
