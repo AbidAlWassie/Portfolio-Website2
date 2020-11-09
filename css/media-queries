@@ -128,9 +128,9 @@
     max-width: 1110px;
   }
 
-  .container-content {
-    max-width: 980px;
-  }
+  //.container-content {
+  //  max-width: 980px;
+  //}
 
 }
 
