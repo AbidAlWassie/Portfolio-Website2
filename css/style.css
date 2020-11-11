@@ -499,6 +499,7 @@ li.active > a {
 .center {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -868,6 +869,7 @@ li.active > a {
   width: 335px;
   height: 200px;
   cursor: pointer;
+  background-size: cover !important;
 }
 
 .project-content:hover .project-info {

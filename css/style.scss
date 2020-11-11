@@ -315,6 +315,7 @@ li.active > a{
 .center {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -700,10 +701,8 @@ li.active > a{
   width: 335px;
   height: 200px;
   cursor: pointer;
-}
-
-.project-content {
-
+  //background: no-repeat !important;
+  background-size: cover !important;
 }
 
 .project-info {
