@@ -70,9 +70,6 @@ window.onload = function() {
     //     });
     //   }
     // });
-
-    var context;
-    var $window = $(window);
   
   });
 }
