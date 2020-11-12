@@ -733,3 +733,22 @@ li.active > a{
   color: transparent;
   font-size: 1.5rem;
 }
+
+
+.modal-header .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 11px;
+  margin-top: 0;
+  background-color: #fff;
+  font-size: 16px;
+  color: #212121;
+  opacity: 1;
+  transition: box-shadow 0.25s ease-in-out;
+  -moz-transition: box-shadow 0.25s ease-in-out;
+}
+
+a.close:hover {
+  color: #E81123;
+}
