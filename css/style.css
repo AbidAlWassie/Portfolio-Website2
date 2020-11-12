@@ -685,6 +685,7 @@ li.active > a {
 }
 
 .progress-bar {
+  position: relative !important;
   background: #0075f6;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -692,7 +693,6 @@ li.active > a {
   line-height: 1.2;
   color: #000000;
   font-weight: 600;
-  position: relative;
   overflow: visible;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -706,12 +706,12 @@ li.active > a {
   font-weight: 500;
 }
 
-.progress-bar > * {
+.progress-filled {
   position: absolute;
-  width: auto;
+  height: 20px;
 }
 
-.progress-bar span {
+.progress-number {
   position: absolute;
   top: -38px;
   right: 0;
