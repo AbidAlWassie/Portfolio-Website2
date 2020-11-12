@@ -692,6 +692,7 @@ li.active > a{
 }
 
 .project-content {
+  user-select: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -705,10 +706,6 @@ li.active > a{
   background-size: cover !important;
 }
 
-.project-info {
-
-  //display: block;
-}
 
 .project-content:hover .project-info{
   display: flex;
