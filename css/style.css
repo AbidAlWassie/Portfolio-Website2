@@ -116,6 +116,16 @@
     max-width: 800px;
   }
 }
+@media (max-width: 1160px) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+@media screen and (max-width: 1560px) {
+  .navbar-nav {
+    margin: 10px auto 0 34vw !important;
+  }
+}
 /*# sourceMappingURL=media-queries.css.map */
 .bg-primary {
   background: #0075F6 !important;
@@ -436,7 +446,7 @@ h1 span {
 }
 
 .navbar-nav {
-  margin: 10px auto 0 34vw;
+  margin: 10px auto 0 34vw !important;
 }
 
 .nav-expand {

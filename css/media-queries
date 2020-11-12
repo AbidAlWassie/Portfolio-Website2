@@ -151,3 +151,10 @@
     grid-template-columns: 1fr 1fr !important;
   }
 }
+
+@media screen and (max-width: 1560px) {
+  .navbar-nav {
+    //margin-top: 0 !important;
+    margin: 10px auto 0 34vw !important;
+  }
+}
