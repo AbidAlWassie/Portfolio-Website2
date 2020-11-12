@@ -114,9 +114,6 @@
   .container {
     max-width: 800px;
   }
-  .project-content {
-    height: 200px;
-  }
 }
 @media (max-width: 1160px) {
   .projects-container {
@@ -124,7 +121,16 @@
   }
 
   .project-content {
-    height: 270px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 850px) {
+  .projects-container {
+    grid-template-columns: 1fr !important;
+  }
+  .project-content {
+    height: 350px;
   }
 }
 
