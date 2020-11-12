@@ -121,6 +121,11 @@
     grid-template-columns: 1fr 1fr !important;
   }
 }
+@media (max-width: 670px) {
+  .projects-container {
+    grid-template-columns: 1fr !important;
+  }
+}
 @media screen and (max-width: 1560px) {
   .navbar-nav {
     margin: 10px auto 0 34vw !important;
@@ -341,6 +346,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   overflow: hidden;
   height: 100%;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
 }
 
 .overlay-half-x:after {

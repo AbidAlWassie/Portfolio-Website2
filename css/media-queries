@@ -152,6 +152,16 @@
   }
 }
 
+@media (max-width: 670px) {
+  .projects-container {
+    grid-template-columns: 1fr !important;
+  }
+
+  .project-content {
+    height: 400px;
+  }
+}
+
 @media screen and (max-width: 1560px) {
   .navbar-nav {
     //margin-top: 0 !important;
