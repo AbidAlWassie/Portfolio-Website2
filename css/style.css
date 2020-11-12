@@ -125,6 +125,10 @@
   .projects-container {
     grid-template-columns: 1fr !important;
   }
+
+  .project-content {
+    height: 400px;
+  }
 }
 @media screen and (max-width: 1560px) {
   .navbar-nav {
@@ -998,12 +1002,16 @@ a.close:hover {
 }
 
 .btn-dark:hover {
-  background: #1f1f1f;
+  background: #212121;
 }
 
 .btn-light {
   background: #e3e3e3;
   color: #000;
+}
+
+.btn-light:hover {
+  background: #c7c7c7;
 }
 
 .modal-footer {

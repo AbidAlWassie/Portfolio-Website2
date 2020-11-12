@@ -771,12 +771,16 @@ a.close:hover {
 }
 
 .btn-dark:hover {
-  background: #1f1f1f;
+  background: #212121;
 }
 
 .btn-light {
   background: #e3e3e3;
   color: #000;
+}
+
+.btn-light:hover {
+  background: #c7c7c7;
 }
 
 
