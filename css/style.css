@@ -945,4 +945,9 @@ a.close:hover {
   color: #E81123;
 }
 
+.btn-dark {
+  background: #131313;
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
