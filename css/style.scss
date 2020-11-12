@@ -17,8 +17,8 @@ body {
   background: #fff;
 }
 
-p {
-  color: #999999;
+.text-grey {
+  color: #6f6f6f;
 }
 
 p.white {
@@ -755,6 +755,21 @@ a.close:hover {
 }
 
 .btn-dark {
-  background: #131313;
+  background: #010001;
   color: #fff;
+}
+
+.btn-dark:hover {
+  background: #1f1f1f;
+}
+
+.btn-light {
+  background: #e3e3e3;
+  color: #000;
+}
+
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
 }
