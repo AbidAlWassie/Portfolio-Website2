@@ -18,6 +18,10 @@
     margin-right: 60px;
     padding: 0;
   }
+
+  .footer-items {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 992px) {
   .navbar {
@@ -132,12 +136,6 @@
 @media screen and (max-width: 1560px) {
   .navbar-nav {
     margin: 10px auto 0 34vw !important;
-  }
-}
-@media (min-width: 768px) {
-  .modal-dialog {
-    width: 600px;
-    margin: 70px auto;
   }
 }
 

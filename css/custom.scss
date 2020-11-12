@@ -121,7 +121,7 @@
 }
 
 .padding-fix {
-  padding-right: 15px;
+  padding-right: 30px;
   padding-left: 30px;
 }
 
@@ -150,4 +150,11 @@
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    //width: 600px;
+    margin: 80px auto !important;
+  }
 }
