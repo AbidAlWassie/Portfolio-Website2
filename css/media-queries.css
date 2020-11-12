@@ -107,12 +107,24 @@
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 1110px;
+    max-width: 1010px;
   }
 }
 @media (max-width: 1030px) {
   .container {
     max-width: 800px;
+  }
+  .project-content {
+    height: 200px;
+  }
+}
+@media (max-width: 1160px) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .project-content {
+    height: 270px;
   }
 }
 

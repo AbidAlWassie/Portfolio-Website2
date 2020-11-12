@@ -129,12 +129,32 @@
   background: #f8f9fa !important;
 }
 
+.p-5 {
+  padding: 5px;
+}
+
+.p-7h {
+  padding: 7.5px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
 .p-15 {
   padding: 15px;
 }
 
-.pr-15 {
-  padding-right: 15px;
+.p-20 {
+  padding: 20px;
+}
+
+.p-25 {
+  padding: 25px;
+}
+
+.pr-30 {
+  padding-right: 30px;
 }
 
 .mb-10 {
@@ -891,6 +911,15 @@ li.active > a {
   margin-bottom: 20px;
 }
 
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-item {
+  width: 100% !important;
+}
+
 .project-content {
   user-select: none;
   display: flex;
@@ -899,6 +928,7 @@ li.active > a {
   font-size: 2rem;
   font-weight: 500;
   color: transparent;
+  min-width: 100% !important;
   height: 200px;
   cursor: pointer;
   background-size: cover !important;

@@ -691,6 +691,15 @@ li.active > a{
   margin-bottom: 20px;
 }
 
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-item {
+  width: 100% !important;
+}
+
 .project-content {
   user-select: none;
   display: flex;
@@ -699,7 +708,7 @@ li.active > a{
   font-size: 2rem;
   font-weight: 500;
   color: transparent;
-  //width: 100% !important;
+  min-width: 100% !important;
   height: 200px;
   cursor: pointer;
   //background: no-repeat !important;
