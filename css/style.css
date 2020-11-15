@@ -1,3 +1,4 @@
+@import "icomoon.css";
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 @media (max-width: 1030px) {
   .container-content {
@@ -327,7 +328,6 @@ ul, ol, dl {
 a {
   text-decoration: none;
   color: #000;
-  float: left;
 }
 
 .hyperlink {
@@ -456,6 +456,10 @@ h1 span {
   color: #000000;
   font-weight: 400;
   opacity: 1 !important;
+}
+
+.nav-link {
+  float: left;
 }
 
 .ml-auto {
@@ -741,6 +745,13 @@ li.active > a {
   padding: 50px 50px 0 50px;
 }
 
+.contact-box {
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .contact input {
   height: 53px;
   margin: 0 0 20px 0;
@@ -1023,6 +1034,18 @@ a.close:hover {
 .modal-footer {
   display: flex;
   justify-content: center;
+}
+
+[class^=icomoon-], [class*=" icomoon-"] {
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*# sourceMappingURL=style.css.map */
