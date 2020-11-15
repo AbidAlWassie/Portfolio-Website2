@@ -188,6 +188,10 @@ img {
   //user-select: none;
 }
 
+.nav-item:hover > a {
+  border-bottom: 2px solid #0075f6 !important;
+}
+
 .nav-link {
   float: left;
 }
@@ -870,17 +874,17 @@ a.close:hover {
   justify-content: center;
 }
 
-[class^="icomoon-"], [class*=" icomoon-"] {
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+//[class^="icomoon-"], [class*=" icomoon-"] {
+//  font-family: 'icomoon' !important;
+//  speak: none;
+//  font-style: normal;
+//  font-weight: normal;
+//  font-variant: normal;
+//  text-transform: none;
+//  line-height: 1;
+//  -webkit-font-smoothing: antialiased;
+//  -moz-osx-font-smoothing: grayscale;
+//}
 
 .contact-anchor:hover {
   color: #3700FF;

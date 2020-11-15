@@ -492,6 +492,10 @@ h1 span {
   opacity: 1 !important;
 }
 
+.nav-item:hover > a {
+  border-bottom: 2px solid #0075f6 !important;
+}
+
 .nav-link {
   float: left;
 }
@@ -1101,18 +1105,6 @@ a.close:hover {
 .modal-footer {
   display: flex;
   justify-content: center;
-}
-
-[class^=icomoon-], [class*=" icomoon-"] {
-  font-family: "icomoon" !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .contact-anchor:hover {
