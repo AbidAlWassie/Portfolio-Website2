@@ -504,17 +504,37 @@ h1 span {
   opacity: 1 !important;
 }
 
-.nav-item:hover > a {
-  border-bottom: 2px solid #0075f6 !important;
-}
-
-.nav-item.active > a {
-  color: #0075f6 !important;
-  border-bottom: 2px solid #0075f6 !important;
-}
-
 .nav-link {
   float: left;
+}
+
+.nav-item > .nav-link span {
+  position: relative;
+  display: block;
+  padding-bottom: 2px;
+}
+
+.nav-item.active span:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.nav-item:hover span:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.nav-link span:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: #0075f6;
+  visibility: visible;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .ml-auto {
