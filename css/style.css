@@ -503,7 +503,7 @@ h1 span {
 
 .nav-item .nav-link {
   font-size: 16px;
-  margin: 1.15rem 10px;
+  margin: 1.15rem 16px;
   color: #000000;
   font-weight: 400;
   opacity: 1 !important;
@@ -551,12 +551,12 @@ h1 span {
   color: #000000;
   padding-top: 1.15rem;
   padding-bottom: 1.15rem;
-  margin-top: 12px;
+  margin-top: 14px;
   padding-left: 100px;
 }
 
 .navbar-nav {
-  margin-top: 10px !important;
+  margin-top: 8px !important;
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
