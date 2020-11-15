@@ -114,6 +114,12 @@
     max-width: 1110px;
   }
 }
+
+@media (min-width: 1110px) {
+  .container {
+    max-width: 1210px;
+  }
+}
 @media (max-width: 1030px) {
   .container {
     max-width: 800px;

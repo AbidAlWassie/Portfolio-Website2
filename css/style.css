@@ -115,6 +115,11 @@
     max-width: 1110px;
   }
 }
+@media (min-width: 1110px) {
+  .container {
+    max-width: 1210px;
+  }
+}
 @media (max-width: 1030px) {
   .container {
     max-width: 800px;
@@ -546,12 +551,15 @@ h1 span {
   color: #000000;
   padding-top: 1.15rem;
   padding-bottom: 1.15rem;
-  margin-top: 10px;
+  margin-top: 12px;
   padding-left: 100px;
 }
 
 .navbar-nav {
-  margin: 10px auto 0 34vw !important;
+  margin-top: 10px !important;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
 }
 
 .nav-expand {

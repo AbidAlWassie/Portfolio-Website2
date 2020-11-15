@@ -239,13 +239,15 @@ img {
   color: #000000;
   padding-top: 1.15rem;
   padding-bottom: 1.15rem;
-  margin-top: 10px;
+  margin-top: 12px;
   padding-left: 100px;
 }
 
 .navbar-nav {
-  //margin-top: 0 !important;
-  margin: 10px auto 0 34vw !important;
+  margin-top: 10px !important;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
 }
 
 .nav-expand {
