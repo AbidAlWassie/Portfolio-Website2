@@ -163,6 +163,10 @@ img {
   background: #8b8b8b;
 }
 
+.navbar-space {
+  height: 74px;
+}
+
 .navbar {
   position: relative;
   height: 74px;
@@ -172,6 +176,7 @@ img {
   right: 0;
   z-index: 20;
   padding: 0.5rem 1rem;
+  //transition: 300ms;
 }
 
 .nav-item .nav-link {

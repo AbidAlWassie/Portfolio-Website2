@@ -435,6 +435,10 @@ h1 span {
   background: #8b8b8b;
 }
 
+.navbar-space {
+  height: 74px;
+}
+
 .navbar {
   position: relative;
   height: 74px;
