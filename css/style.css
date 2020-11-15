@@ -972,6 +972,17 @@ li.active > a {
   height: 20px;
 }
 
+.icon-mid2 {
+  position: relative;
+  top: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.icon-mid2.svg-path {
+  fill: #FFFFFF !important;
+}
+
 .icon-small {
   position: relative;
   top: 3px;
