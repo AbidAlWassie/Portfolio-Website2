@@ -496,6 +496,11 @@ h1 span {
   border-bottom: 2px solid #0075f6 !important;
 }
 
+.nav-item.active > a {
+  color: #0075f6 !important;
+  border-bottom: 2px solid #0075f6 !important;
+}
+
 .nav-link {
   float: left;
 }
@@ -546,16 +551,6 @@ h1 span {
 
 .nav {
   z-index: 10;
-}
-
-/* .nav-link */
-li.active > a {
-  /* text-decoration: underline; */
-  /* background: #000; */
-  color: #0075f6 !important;
-  border-bottom: 2px solid #0075f6 !important;
-  /* font-weight: bold; */
-  /* text-decoration: underline; */
 }
 
 .text-alignment {

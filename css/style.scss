@@ -188,7 +188,13 @@ img {
   //user-select: none;
 }
 
+
 .nav-item:hover > a {
+  border-bottom: 2px solid #0075f6 !important;
+}
+
+.nav-item.active > a{
+  color: #0075f6 !important;
   border-bottom: 2px solid #0075f6 !important;
 }
 
@@ -245,15 +251,10 @@ img {
   z-index: 10;
 }
 
-/* .nav-link */
-li.active > a{
-  /* text-decoration: underline; */
-  /* background: #000; */
-  color: #0075f6 !important;
-  border-bottom: 2px solid #0075f6 !important;
-  /* font-weight: bold; */
-  /* text-decoration: underline; */
-}
+//.nav-link {
+//  border-bottom: 2px solid transparent !important;
+//}
+
 
 .text-alignment {
   position: absolute;
