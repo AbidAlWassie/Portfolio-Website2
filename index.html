@@ -7,13 +7,15 @@
   <link rel="stylesheet" href="css/glide.theme.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-  <link rel="stylesheet" href="css/icomoon.css">
-  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+<!--  <link rel="stylesheet" href="css/icomoon.css">-->
+<!--  <link rel="stylesheet" href="css/flaticon.css">-->
 <!--  <link rel="stylesheet" href="css/glider.css">-->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media-queries.css">
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <script src="js/aos.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="373.99">
 <div class="navbar-space">
@@ -562,6 +564,8 @@
 <script src="js/glide.min.js"></script>
 <script src="js/script.js"></script>
 <script>
+  AOS.init({offset: 80, duration: 300});
+
   const config = {
     type: "carousel",
     perView: 1,
@@ -581,6 +585,10 @@
   glideContent.addEventListener("click", function() {
     console.log("Hello");
   });
+
+  // let counter = 0;
+
+
 </script>
 </body>
 </html>
