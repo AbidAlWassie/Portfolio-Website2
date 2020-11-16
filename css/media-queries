@@ -64,8 +64,18 @@
   .container-content {
     margin: 0 0 0 0;
   }
+
   .nav-desktop {
     display: none;
+  }
+
+  .contact-box {
+    width: 100%;
+  }
+
+  .contact-box .mh-10, .mh-15 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
 
   .about-pic-holder {
