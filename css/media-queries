@@ -78,24 +78,25 @@
   .contact-boxes {
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
+    justify-content: center;
   }
 
   .contact-box {
     align-items: center;
     padding: 10px;
-    width: 97%;
+    width: 98%;
     height: 220px !important;
   }
 
-  .contact-box .mh-10 {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-
-  .contact-box .mh-15 {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
+  //.contact-box .mh-10 {
+  //  margin-left: 15px !important;
+  //  margin-right: 15px !important;
+  //}
+  //
+  //.contact-box .mh-15 {
+  //  margin-left: 15px !important;
+  //  margin-right: 15px !important;
+  //}
 
   .about-pic-holder {
     display: none;
