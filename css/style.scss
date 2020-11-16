@@ -372,12 +372,20 @@ img {
   padding-top: 8em;
 }
 
+.section-padding-bottom {
+  padding-bottom: 8em;
+}
 
 .center {
   display: flex;
+  //position: relative;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.center.column {
+  flex-direction: column;
 }
 
 .section-header {

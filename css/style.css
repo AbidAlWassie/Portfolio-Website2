@@ -38,13 +38,26 @@
     display: none;
   }
 
-  .contact-box {
-    width: 100%;
+  .contact-boxes {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
   }
 
-  .contact-box .mh-10, .mh-15 {
-    margin-left: 10px !important;
-    margin-right: 10px !important;
+  .contact-box {
+    align-items: center;
+    padding: 10px;
+    width: 97%;
+    height: 220px !important;
+  }
+
+  .contact-box .mh-10 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .contact-box .mh-15 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
   .about-pic-holder {
@@ -701,11 +714,19 @@ h1 span {
   padding-top: 8em;
 }
 
+.section-padding-bottom {
+  padding-bottom: 8em;
+}
+
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.center.column {
+  flex-direction: column;
 }
 
 .section-header {
