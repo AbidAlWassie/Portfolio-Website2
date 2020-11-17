@@ -46,6 +46,48 @@
 }
 
 @media (max-width: 850px) {
+
+  .img-intro {
+    margin: 50px 0 0 0;
+    z-index: -10;
+  }
+
+  .slide-container.overlay {
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 1000;
+  }
+
+  .half-1 {
+    display: none;
+  }
+
+  .half-2 {
+    margin-left: 0;
+  }
+
+  .section-d2 {
+    grid-template-columns: 1fr;
+  }
+
+  .flex-row {
+    flex-direction: column;
+  }
+
+  .box {
+    bottom: 30px;
+    left: 10px;
+    width: 250px;
+    height: 100px;
+    //display: block;
+    z-index: -100 !important;
+    padding: 10px;
+    font-size: 1.6em;
+    content: "";
+    background: #0075f6;
+    margin-top: 40px;
+    opacity: 1;
+  }
+
   .contact-items {
     display: flex;
     flex-direction: column-reverse !important;
