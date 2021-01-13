@@ -131,6 +131,12 @@
     height: 220px !important;
   }
 
+  .projects-container {
+    //grid-template-columns: 1fr 1fr !important;
+    width: 100vw !important;
+    margin: 0 0;
+  }
+
   //.contact-box .mh-10 {
   //  margin-left: 15px !important;
   //  margin-right: 15px !important;
@@ -268,6 +274,8 @@
 @media (max-width: 1160px) {
   .projects-container {
     grid-template-columns: 1fr 1fr !important;
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
@@ -286,6 +294,25 @@
     //margin-top: 0 !important;
     margin: 10px auto 0 34vw !important;
   }
+}
+
+
+@media screen and (max-width: 450px) {
+  //.project-item {
+  //  height: 35vh;
+  //}
+
+  .project-content {
+    height: 35vh;
+  }
+
+  .alert-text {
+    font-size: 16px;
+  }
+
+  //.text-center > h3, p {
+  //  font-size: 0.2rem !important;
+  //}
 }
 
 //@media screen and (min-width: 768px) {

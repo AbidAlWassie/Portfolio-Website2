@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .container {
     max-width: 500px;
   }
@@ -9,17 +9,22 @@
   margin: 0;
 }
 
-@media (min-width: 850px) {
+@media screen and (min-width: 714px) {
+  .container {
+    max-width: 614px;
+  }
+}
+@media screen and (min-width: 850px) {
   .container {
     max-width: 700px;
   }
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .container {
     max-width: 1110px;
   }
 }
-@media (min-width: 1030px) {
+@media screen and (min-width: 1030px) {
   .center.column {
     display: block;
   }
@@ -94,6 +99,11 @@
     padding: 10px;
     width: 98%;
     height: 220px !important;
+  }
+
+  .projects-container {
+    width: 100vw !important;
+    margin: 0 0;
   }
 
   .about-pic-holder {
@@ -208,6 +218,8 @@
 @media (max-width: 1160px) {
   .projects-container {
     grid-template-columns: 1fr 1fr !important;
+    width: 80%;
+    margin: 0 auto;
   }
 }
 @media (max-width: 670px) {
@@ -1259,6 +1271,7 @@ a.close:hover {
 .contact-anchor:hover {
   color: #3700FF;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
