@@ -12,7 +12,7 @@ window.onload = function() {
         navbarExtended = $(".navbar-nav");
         brandOtherLetters = $(".otherLetters");
         btnLine = $(".btn-line");
-
+        
         if (st > 150) {
           if ( !navbar.hasClass("scrolled") ) {
             navbar.addClass("scrolled");
@@ -52,24 +52,7 @@ window.onload = function() {
       });
     };
     scrollWindow();
-
-
-    // var anchor = $(".nav-link");
-    // anchor.on('click', function(event) {
-    //
-    //   if (this.hash !== "") {
-    //     event.preventDefault();
-    //
-    //     var hash = this.hash;
-    //
-    //     var target = $(hash).offset().top-150;
-    //     $('html, body').animate({
-    //       scrollTop: target
-    //     }, 500, function(){
-    //       // window.location.hash = hash;
-    //     });
-    //   }
-    // });
-  
+    
+    
   });
 }
