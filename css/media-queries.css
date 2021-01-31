@@ -28,6 +28,11 @@
     display: block;
   }
 }
+@media (max-width: 550px) {
+  .img-intro {
+    object-fit: cover !important;
+  }
+}
 @media (max-width: 850px) {
   .img-intro {
     margin: 50px 0 0 0;
